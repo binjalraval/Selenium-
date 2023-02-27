@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ede3a1be-f88e-46df-9399-935d8a3ed708" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Webdrivers/chrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Webdrivers/edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Webdrivers/firefox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework2/chromelogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework2/edgelogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework2/firefoxlogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webdriver/Firefox.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webdriver/Opera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Webdrivers/chrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework1/chrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Webdrivers/edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework1/edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Webdrivers/firefox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework1/firefox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +50,13 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.firefox">
-    <configuration name="chrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Webdrivers.chrome" />
+  <component name="RunManager" selected="Application.firefoxlogin">
+    <configuration name="chromelogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seleniumhomework2.chromelogin" />
       <module name="SeleniumLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Webdrivers.*" />
+          <option name="PATTERN" value="Seleniumhomework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,11 +65,24 @@
       </method>
     </configuration>
     <configuration name="edge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Webdrivers.edge" />
+      <option name="MAIN_CLASS_NAME" value="Seleniumhomework1.edge" />
       <module name="SeleniumLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Webdrivers.*" />
+          <option name="PATTERN" value="Seleniumhomework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="edgelogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seleniumhomework2.edgelogin" />
+      <module name="SeleniumLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seleniumhomework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,11 +91,11 @@
       </method>
     </configuration>
     <configuration name="firefox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Webdrivers.firefox" />
+      <option name="MAIN_CLASS_NAME" value="Seleniumhomework1.firefox" />
       <module name="SeleniumLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Webdrivers.*" />
+          <option name="PATTERN" value="Seleniumhomework1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,25 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gecko" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Webdrivers.gecko" />
+    <configuration name="firefoxlogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seleniumhomework2.firefoxlogin" />
       <module name="SeleniumLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Webdrivers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="safari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Webdrivers.safari" />
-      <module name="SeleniumLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Webdrivers.*" />
+          <option name="PATTERN" value="Seleniumhomework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.firefoxlogin" />
+        <item itemvalue="Application.edgelogin" />
+        <item itemvalue="Application.chromelogin" />
         <item itemvalue="Application.firefox" />
         <item itemvalue="Application.edge" />
-        <item itemvalue="Application.chrome" />
-        <item itemvalue="Application.safari" />
-        <item itemvalue="Application.gecko" />
       </list>
     </recent_temporary>
   </component>
