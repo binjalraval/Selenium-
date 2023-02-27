@@ -1,4 +1,4 @@
-package Seleniumhomework1;
+package Seleniumhomework;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;

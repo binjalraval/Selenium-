@@ -17,7 +17,7 @@ public class chromelogin {
     driver.findElement(By.xpath("/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/ul/li[2]/a")).click();
     driver.findElement(By.id("Email")).sendKeys("bvs.raval30@gmail.com");
     driver.findElement(By.id("Password")).sendKeys("Shash1811*");
-    driver.findElement(By.xpath("/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]/div[2]/form/div[4]/button"));
+    driver.findElement(By.xpath("/html/body/div[6]/div[3]/div/div/div/div[2]/div[1]/div[2]/form/div[3]/button")).click();
 
     }
 }

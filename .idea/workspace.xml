@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ede3a1be-f88e-46df-9399-935d8a3ed708" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework2/chromelogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework2/edgelogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework2/firefoxlogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Webdrivers/chrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework1/chrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Webdrivers/edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework1/edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Webdrivers/firefox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework1/firefox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seleniumhomework/chrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework/chrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seleniumhomework/edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework/edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seleniumhomework/firefox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework/firefox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seleniumhomework2/chromelogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework2/chromelogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Seleniumhomework2/edgelogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Seleniumhomework2/edgelogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
       <recent name="webdriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.firefoxlogin">
+  <component name="RunManager" selected="Application.chromelogin">
     <configuration name="chromelogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Seleniumhomework2.chromelogin" />
       <module name="SeleniumLearning" />
@@ -65,11 +63,11 @@
       </method>
     </configuration>
     <configuration name="edge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seleniumhomework1.edge" />
+      <option name="MAIN_CLASS_NAME" value="Seleniumhomework.edge" />
       <module name="SeleniumLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seleniumhomework1.*" />
+          <option name="PATTERN" value="Seleniumhomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="firefox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seleniumhomework1.firefox" />
+      <option name="MAIN_CLASS_NAME" value="Seleniumhomework.firefox" />
       <module name="SeleniumLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seleniumhomework1.*" />
+          <option name="PATTERN" value="Seleniumhomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,9 +116,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.firefoxlogin" />
-        <item itemvalue="Application.edgelogin" />
         <item itemvalue="Application.chromelogin" />
+        <item itemvalue="Application.edgelogin" />
+        <item itemvalue="Application.firefoxlogin" />
         <item itemvalue="Application.firefox" />
         <item itemvalue="Application.edge" />
       </list>
